@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  
+  <style>
+        /* default link psuedoclass */
+        a:default {
+            background-color: purple;
+        }
+
+        /* active link pseudoclass */
+        a:active {
+            border-style: dashed;
+            border-width: 20px;
+            border-color: black;
+        }
+
+        /* hover link pseudoclass */
+        a:hover {
+            background-color: red;
+            padding: 50px;
+        }
+
+        /* focus link pseudoclass */
+        a:focus {
+            background-color: green;
+            font-size: 50px;
+            top: 50px;
+        }
+  </style>
+  
+  <body>
+    <a href="#" id="default"><button>DEFAULT</button></a>
+    <a href="#" id="active"><button>ACTIVE</button></a>
+    <a href="#" id="hover"><button>HOVER</button></a>
+    <a href="#" id="focus"><button>FOCUS</button></a>
+  </body>
+</html>
